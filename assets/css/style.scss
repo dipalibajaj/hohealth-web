@@ -826,7 +826,7 @@
             }
             .HeaderBox {
                 float: none !important;
-                width: 100% !important;
+                width: 350px !important;
                 margin: 0 auto;
             }
             #MainHeader {
@@ -849,7 +849,7 @@
                 margin-top: 40px;
             }
             #MainHeader p {
-                padding: 0px 10px;
+                padding: 0px 0px;
             }
             .mlp {
                 margin-left: 0px !important;
@@ -2226,6 +2226,9 @@
         }
         
         @media (max-width: 320px) {
+            #MainHeader .HeaderBox {
+                width: 100% !important;
+            }
             .features .heading1 span {
                 float: left !important;
                 width: 100%;
@@ -2311,6 +2314,13 @@
         }
         
         @media (max-width: 420px) {
+            .HeaderBox h1 span,
+            .HeaderBox .h1 span {
+                padding-right: 8px;
+            }
+            .HeaderBox {
+                width: 320px !important;
+            }
             .features .heading1 span {
                 float: none !important;
                 width: auto !important;
