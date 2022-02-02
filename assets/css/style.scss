@@ -1701,6 +1701,16 @@
             background-position: center bottom;
         }*/
         
+        @media screen and (min-width: 1024px) {
+            .features .heading1 span {
+                float: left;
+                width: 100%;
+            }
+            .features .heading1 img {
+                left: 0 !important;
+            }
+        }
+        
         @media screen and (min-width: 1280px) {
             .features .heading1 span {
                 float: left;
@@ -1970,8 +1980,9 @@
         
         @media (max-width: 767px) {
             .features .heading1 span {
-                float: left;
-                width: 100%;
+                float: none !important;
+                width: auto !important;
+                display: inline-block !important;
             }
             .features .heading1 img {
                 left: 0 !important;
@@ -2010,7 +2021,7 @@
                 padding: 80px 0px 80px 0px;
             }
             .features .heading1 img {
-                width: 50%;
+                width: 100%;
             }
             .learndetails .content h1 {
                 text-align: center;
